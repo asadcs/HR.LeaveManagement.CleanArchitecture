@@ -1,8 +1,37 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="DTOs\LeaveAllocation\Validators\**" />
+    <Compile Remove="DTOs\LeaveRequest\Validators\**" />
+    <Compile Remove="DTOs\LeaveType\Validators\**" />
+    <EmbeddedResource Remove="DTOs\LeaveAllocation\Validators\**" />
+    <EmbeddedResource Remove="DTOs\LeaveRequest\Validators\**" />
+    <EmbeddedResource Remove="DTOs\LeaveType\Validators\**" />
+    <None Remove="DTOs\LeaveAllocation\Validators\**" />
+    <None Remove="DTOs\LeaveRequest\Validators\**" />
+    <None Remove="DTOs\LeaveType\Validators\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="DTOs\LeaveAllocation\CreateLeaveAllocationDto.cs" />
+    <Compile Remove="DTOs\LeaveAllocation\ILeaveAllocationDto.cs" />
+    <Compile Remove="DTOs\LeaveAllocation\UpdateLeaveAllocationDto.cs" />
+    <Compile Remove="DTOs\LeaveRequest\ChangeLeaveRequestApprovalDto.cs" />
+    <Compile Remove="DTOs\LeaveRequest\CreateLeaveRequestDto.cs" />
+    <Compile Remove="DTOs\LeaveRequest\ILeaveRequestDto.cs" />
+    <Compile Remove="DTOs\LeaveRequest\LeaveRequestListDto.cs" />
+    <Compile Remove="DTOs\LeaveRequest\UpdateLeaveRequestDto.cs" />
+    <Compile Remove="DTOs\LeaveType\CreateLeaveTypeDto.cs" />
+    <Compile Remove="DTOs\LeaveType\ILeaveTypeDto.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\HR.LeaveManagement.Domain\HR.LeaveManagement.Domain.csproj" />
