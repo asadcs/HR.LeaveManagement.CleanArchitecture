@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{CEFC79D7-8802-4DCD-9D57-985F1DF36CE9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{5D70CD39-D116-449F-855E-29896CB33049}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{13D16E5A-C16F-4CB0-9895-413DDFBDCFE9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{82C84BE0-C161-49DB-83DD-C80354A91E78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.LeaveManagement.Domain", "HR.LeaveManagement.Domain\HR.LeaveManagement.Domain.csproj", "{AFFBFABB-3A7B-4129-A218-A349E1B0D6A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFFBFABB-3A7B-4129-A218-A349E1B0D6A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFFBFABB-3A7B-4129-A218-A349E1B0D6A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFFBFABB-3A7B-4129-A218-A349E1B0D6A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFFBFABB-3A7B-4129-A218-A349E1B0D6A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AFFBFABB-3A7B-4129-A218-A349E1B0D6A6} = {5D70CD39-D116-449F-855E-29896CB33049}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {618363E3-C0D8-4052-B4E9-050AF417EDBD}
+	EndGlobalSection
+EndGlobal
